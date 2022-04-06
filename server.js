@@ -16,7 +16,7 @@ app.use(cors())
 const PORT = process.env.PORT || 4000;
 
 app.get("/", (req, res) => {
-    res.send("Server is up!")
+    res.send("Tug Server is up!")
 })
 
 io.on('connection', (socket) => {
